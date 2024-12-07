@@ -1,28 +1,19 @@
 {
-  "name": "@fengjiuhu/shared",
-  "version": "1.0.23",
+  "name": "shared",
+  "version": "1.0.0",
   "main": "index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [],
-  "author": "fengjiuhu",
-  "license": "GPL-3.0-only",
-  "description": "Shared module for WoA Fleet Tracker.",
-  "devDependencies": {
-    "typescript": "^5.5.3"
+    "test": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengjiuhu/WoA-Fleet-Tracker.git"
+    "url": "git+https://github.com/fengjiuhu/shared.git"
   },
-  "publishConfig": {
-    "@fengjiuhu:registry": "https://npm.pkg.github.com/"
+  "author": "fengjiuhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fengjiuhu/shared/issues"
   },
-  "dependencies": {
-    "mongoose": "^8.5.1"
-  }
+  "homepage": "https://github.com/fengjiuhu/shared#readme",
+  "description": ""
 }
